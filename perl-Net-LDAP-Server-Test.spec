@@ -11,6 +11,7 @@ Group:      Development/Perl
 Url:        http://search.cpan.org/dist/%{upstream_name}
 Source0:    http://www.cpan.org/modules/by-module/Net/%{upstream_name}-%{upstream_version}.tar.gz
 
+BuildRequires: perl(Data::Dump)
 BuildRequires: perl(IO::Select)
 BuildRequires: perl(IO::Socket)
 BuildRequires: perl(Net::LDAP)
