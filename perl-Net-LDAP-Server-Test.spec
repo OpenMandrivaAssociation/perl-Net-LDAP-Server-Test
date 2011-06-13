@@ -1,9 +1,9 @@
 %define upstream_name    Net-LDAP-Server-Test
-%define upstream_version 0.10
+%define upstream_version 0.11
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 1
 
 Summary:    Test Net::LDAP code
 License:    GPL+ or Artistic
