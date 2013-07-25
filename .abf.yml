@@ -1,2 +1,4 @@
+removed_sources:
+  Net-LDAP-Server-Test-0.11.tar.gz: c09bc5ddd41f9c7bc3743f4d20fd81ac941f3f36
 sources:
-  "Net-LDAP-Server-Test-0.11.tar.gz": c09bc5ddd41f9c7bc3743f4d20fd81ac941f3f36
+  Net-LDAP-Server-Test-0.19.tar.gz: c1c8535ebb6b55ca5b8760cc17a65bcf97e61721
