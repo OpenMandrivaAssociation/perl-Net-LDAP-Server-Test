@@ -1,15 +1,15 @@
 %define upstream_name    Net-LDAP-Server-Test
-%define upstream_version 0.11
+%define upstream_version 0.19
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	2
+Version:	%perl_convert_version 0.19
+Release:	1
 
 Summary:	Test Net::LDAP code
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Net/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Net/Net-LDAP-Server-Test-0.19.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Data::Dump)
@@ -77,4 +77,5 @@ make test
 
 * Sun Jul 19 2009 Buchan Milne <bgmilne@mandriva.org> 0.07-1mdv
 - initial mdv release, generated with cpan2dist
+
 
