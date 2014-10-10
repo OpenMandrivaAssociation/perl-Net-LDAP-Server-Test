@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version 0.19
-Release:	1
+Release:	2
 
 Summary:	Test Net::LDAP code
 License:	GPL+ or Artistic
