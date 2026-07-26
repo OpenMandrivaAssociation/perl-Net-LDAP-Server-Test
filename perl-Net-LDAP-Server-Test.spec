@@ -1,9 +1,7 @@
 %define upstream_name    Net-LDAP-Server-Test
-%define upstream_version 0.22
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	1
+Version:	0.22
+Release:	2
 
 Summary:	Test Net::LDAP code
 License:	GPL+ or Artistic
@@ -27,7 +25,7 @@ Now you can test your Net::LDAP code without having a real LDAP server
 available.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
@@ -69,9 +67,7 @@ make test
 
 * Tue Aug 04 2009 Jérôme Quelin <jquelin@mandriva.org> 0.70.0-1mdv2010.0
 + Revision: 408967
-- rebuild using %%perl_convert_version
-
-* Sun Jul 19 2009 Buchan Milne <bgmilne@mandriva.org> 0.07-1mdv2010.0
+- rebuild using %0.22 Sun Jul 19 2009 Buchan Milne <bgmilne@mandriva.org> 0.07-1mdv2010.0
 + Revision: 397927
 - import perl-Net-LDAP-Server-Test
 
